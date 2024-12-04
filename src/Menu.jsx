@@ -25,20 +25,17 @@ const menuData = [
       { name: "Kapalı Et Dönerli Pide", price: "200₺" },
       { name: "Köfte (Ekmek Arası)", price: "130₺" },
       { name: "Köfte Servis", price: "140₺" },
-      { name: "Adana Dürüm", price: "170₺" },
-      { name: "Adana Servis", price: "170₺" },
-      { name: "Kanat", price: "120₺"},
       { name: "Kuzu Şiş", price: "150₺"},
       { name: "Kuzu Ciğer Şiş", price: "110₺"},
-      { name: "Pirzola", price: "200₺" },
-      { name: "Pizza", price: "130₺"}
+      { name: "Pirzola", price: "200₺" }
     ]
   },
   {
     category: "ÖZEL LEZZETLER",
     items: [
-      { name: "Ankara Tava", price: "200₺" },
-      { name: "Çiğ Köfte (kg)", price: "230₺" },
+      { name: "Balık Ekmek (Uskumru)", price: "110₺" },
+      { name: "Balık Servis (Uskumru)", price: "110₺" },
+      { name: "Çiğ Köfte (kg)", price: "200₺" },
       { name: "Çiğ Köfte (Porsiyon)", price: "50₺" },
       { name: "Çiğ Köfte (Dürüm)", price: "50₺" },
       { name: "Mantı (kg)", price: "300₺" },

@@ -20,6 +20,9 @@ const menuData = [
   {
     category: "PİDE VE IZGARA ÇEŞİTLERİ",
     items: [
+      { name: "Adana Lavaş Dürüm", price: "140₺" },
+      { name: "Adana (Porsiyon)", price: "150₺" },
+      { name: "Tavuk Kanat", price: "120₺" },
       { name: "Lahmacun", price: "75₺" },
       { name: "Kıymalı Pide", price: "130₺" },
       { name: "Kapalı Et Dönerli Pide", price: "200₺" },

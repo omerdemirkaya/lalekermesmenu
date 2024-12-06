@@ -38,18 +38,23 @@ const menuData = [
       { name: "Çiğ Köfte (kg)", price: "200₺" },
       { name: "Çiğ Köfte (Porsiyon)", price: "50₺" },
       { name: "Çiğ Köfte (Dürüm)", price: "50₺" },
-      { name: "Mantı (kg)", price: "300₺" },
-      { name: "Mantı (Porsiyon)", price: "50₺" },
+      { name: "Mantı (kg)", price: "350₺" },
+      { name: "Mantı (Porsiyon)", price: "60₺" },
       { name: "İçli Köfte (adet)", price: "50₺" },
       { name: "Yaprak Sarma(kg)", price: "200₺" },
       { name: "Yaprak Sarma (Porsiyon)", price: "50₺" },
       { name: "Baklava (kg)", price: "350₺" },
       { name: "Baklava (Porsiyon)", price: "70₺" },
       { name: "Waffle", price: "70₺" },
+      { name: "Börek (kg)", price: "250₺" },
+      { name: "Yaş Pasta", price: "300₺" },
       { name: "Höşmerim", price: "60₺" },
+      { name: "Trileçe", price: "200₺" },
       { name: "Gözleme", price: "50₺" },
       { name: "Bazlama", price: "15₺" },
-      { name: "Aşure", price: "50₺" }
+      { name: "Ekler (adet)", price: "10₺" },
+      { name: "Truf (adet)", price: "7.5₺" },
+      { name: "Aşure", price: "60₺" }
     ]
   },
   {

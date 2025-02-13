@@ -4,40 +4,41 @@ const menuData = [
   {
     category: "DÖNER ÜRÜNLERİ",
     items: [
-      { name: "Et Döner Ekmek Arası", price: "140₺" },
-      { name: "Et Döner Lavaş Dürüm", price: "140₺" },
-      { name: "Et Döner Servis", price: "170₺" },
-      { name: "Tavuk Döner Ekmek Arası", price: "110₺" },
-      { name: "Tavuk Döner Lavaş Dürüm", price: "110₺" },
-      { name: "Tavuk Döner Servis", price: "130₺" },
-      { name: "Hatay Usulü Tavuk Dürüm", price: "140₺" },
+      { name: "Et Döner Ekmek Arası", price: "160₺" },
+      { name: "Et Döner Lavaş Dürüm", price: "160₺" },
+      { name: "Et Döner Servis", price: "200₺" },
+      { name: "Tavuk Döner Ekmek Arası", price: "130₺" },
+      { name: "Tavuk Döner Lavaş Dürüm", price: "130₺" },
+      { name: "Tavuk Döner Servis", price: "150₺" },
+      { name: "Hatay Usulü Tavuk Dürüm", price: "150₺" },
       { name: "Et İskender", price: "200₺" },
-      { name: "Tavuk İskender", price: "150₺" },
-      { name: "Et Döner (kg)", price: "1500₺" },
-      { name: "Tavuk Döner (kg)", price: "900₺" }
+      { name: "Tavuk İskender", price: "160₺" },
+      { name: "Et Döner (kg)", price: "1600₺" },
+      { name: "Tavuk Döner (kg)", price: "1000₺" }
     ]
   },  
   {
     category: "PİDE VE IZGARA ÇEŞİTLERİ",
     items: [
-      { name: "Adana Lavaş Dürüm", price: "140₺" },
-      { name: "Adana (Porsiyon)", price: "150₺" },
-      { name: "Tavuk Kanat", price: "120₺" },
-      { name: "Lahmacun", price: "75₺" },
-      { name: "Kıymalı Pide", price: "130₺" },
-      { name: "Kapalı Et Dönerli Pide", price: "200₺" },
-      { name: "Köfte (Ekmek Arası)", price: "130₺" },
-      { name: "Köfte Servis", price: "140₺" },
+      { name: "Adana Lavaş Dürüm", price: "160₺" },
+      { name: "Adana (Porsiyon)", price: "180₺" },
+      { name: "Tavuk Kanat", price: "140₺" },
+      { name: "Lahmacun", price: "90₺" },
+      { name: "Kıymalı Pide", price: "150₺" },
+      { name: "Kapalı Et Dönerli Pide", price: "230₺" },
+      { name: "Köfte (Ekmek Arası)", price: "140₺" },
+      { name: "Köfte Servis", price: "150₺" },
       { name: "Kuzu Şiş", price: "150₺"},
-      { name: "Kuzu Ciğer Şiş", price: "110₺"},
-      { name: "Pirzola", price: "200₺" }
+      { name: "Kuzu Şiş Servis", price: "160₺"},
+      { name: "Kuzu Ciğer Şiş", price: "130₺"},
+      { name: "Pirzola (5 Adet)", price: "230₺" }
     ]
   },
   {
     category: "ÖZEL LEZZETLER",
     items: [
-      { name: "Balık Ekmek (Uskumru)", price: "110₺" },
-      { name: "Balık Servis (Uskumru)", price: "110₺" },
+      { name: "Balık Ekmek (Uskumru)", price: "120₺" },
+      { name: "Balık Servis (Uskumru)", price: "120₺" },
       { name: "Çiğ Köfte (kg)", price: "200₺" },
       { name: "Çiğ Köfte (Porsiyon)", price: "50₺" },
       { name: "Çiğ Köfte (Dürüm)", price: "50₺" },

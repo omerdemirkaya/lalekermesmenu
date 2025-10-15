@@ -4,68 +4,67 @@ const menuData = [
   {
     category: "DÖNER ÜRÜNLERİ",
     items: [
-      { name: "Et Döner Ekmek Arası", price: "160₺" },
-      { name: "Et Döner Lavaş Dürüm", price: "160₺" },
-      { name: "Et Döner Servis", price: "200₺" },
-      { name: "Tavuk Döner Ekmek Arası", price: "130₺" },
-      { name: "Tavuk Döner Lavaş Dürüm", price: "130₺" },
-      { name: "Tavuk Döner Servis", price: "150₺" },
-      { name: "Hatay Usulü Tavuk Dürüm", price: "150₺" },
-      { name: "Et İskender", price: "200₺" },
-      { name: "Tavuk İskender", price: "160₺" },
-      { name: "Et Döner (kg)", price: "1600₺" },
-      { name: "Tavuk Döner (kg)", price: "1000₺" }
+      { name: "Et Döner Ekmek Arası", price: "200₺" },
+      { name: "Et Döner Lavaş Dürüm", price: "200₺" },
+      { name: "Et Döner Servis", price: "210₺" },
+      { name: "Tavuk Döner Ekmek Arası", price: "170₺" },
+      { name: "Tavuk Döner Lavaş Dürüm", price: "170₺" },
+      { name: "Tavuk Döner Servis", price: "180₺" },
+      { name: "Hatay Usulü Tavuk Dürüm", price: "180₺" },
+      { name: "Et İskender", price: "250₺" },
+      { name: "Tavuk İskender", price: "210₺" },
+      { name: "Et Döner (kg)", price: "1800₺" },
+      { name: "Tavuk Döner (kg)", price: "1500₺" }
     ]
   },  
   {
     category: "PİDE VE IZGARA ÇEŞİTLERİ",
     items: [
-      { name: "Adana Lavaş Dürüm", price: "160₺" },
-      { name: "Adana (Porsiyon)", price: "180₺" },
-      { name: "Tavuk Kanat", price: "140₺" },
-      { name: "Lahmacun", price: "90₺" },
-      { name: "Kıymalı Pide", price: "150₺" },
-      { name: "Kapalı Et Dönerli Pide", price: "230₺" },
-      { name: "Köfte (Ekmek Arası)", price: "140₺" },
-      { name: "Köfte Servis", price: "150₺" },
-      { name: "Kuzu Şiş", price: "150₺"},
-      { name: "Kuzu Şiş Servis", price: "160₺"},
-      { name: "Kuzu Ciğer Şiş", price: "130₺"},
-      { name: "Pirzola (5 Adet)", price: "230₺" }
+      { name: "Adana Lavaş Dürüm", price: "210₺" },
+      { name: "Adana (Porsiyon)", price: "220₺" },
+      { name: "Tavuk Kanat", price: "180₺" },
+      { name: "Lahmacun", price: "100₺" },
+      { name: "Kıymalı Pide", price: "200₺" },
+      { name: "Kapalı Et Dönerli Pide", price: "250₺" },
+      { name: "Köfte (Ekmek Arası)", price: "180₺" },
+      { name: "Köfte Servis", price: "190₺" },
+      { name: "Kuzu Şiş", price: "210₺"},
+      { name: "Kuzu Şiş Servis", price: "220₺"},
+      { name: "Kuzu Ciğer Şiş", price: "170₺"},
+      { name: "Kuzu Ciğer Şiş Servis", price: "180₺"},
+      { name: "Pirzola (5 Adet)", price: "300₺" }
     ]
   },
   {
     category: "ÖZEL LEZZETLER",
     items: [
-      { name: "Balık Ekmek (Uskumru)", price: "120₺" },
-      { name: "Balık Servis (Uskumru)", price: "120₺" },
-      { name: "Çiğ Köfte (kg)", price: "200₺" },
-      { name: "Çiğ Köfte (Porsiyon)", price: "50₺" },
-      { name: "Çiğ Köfte (Dürüm)", price: "50₺" },
-      { name: "Mantı (kg)", price: "350₺" },
-      { name: "Mantı (Porsiyon)", price: "60₺" },
-      { name: "İçli Köfte (adet)", price: "50₺" },
-      { name: "Yaprak Sarma(kg)", price: "200₺" },
+      { name: "Çiğ Köfte (kg)", price: "250₺" },
+      { name: "Çiğ Köfte (Porsiyon)", price: "75₺" },
+      { name: "Çiğ Köfte (Dürüm)", price: "60₺" },
+      { name: "Mantı (kg)", price: "450₺" },
+      { name: "Mantı (Porsiyon)", price: "75₺" },
+      { name: "İçli Köfte (adet)", price: "70₺" },
+      { name: "Yaprak Sarma(kg)", price: "300₺" },
       { name: "Yaprak Sarma (Porsiyon)", price: "50₺" },
-      { name: "Baklava (kg)", price: "350₺" },
-      { name: "Baklava (Porsiyon)", price: "70₺" },
-      { name: "Waffle", price: "70₺" },
-      { name: "Börek (kg)", price: "250₺" },
-      { name: "Yaş Pasta", price: "300₺" },
-      { name: "Höşmerim", price: "60₺" },
-      { name: "Trileçe", price: "200₺" },
-      { name: "Gözleme", price: "50₺" },
-      { name: "Bazlama", price: "15₺" },
+      { name: "Baklava (kg)", price: "550₺" },
+      { name: "Baklava (Porsiyon)", price: "100₺" },
+      { name: "Waffle", price: "100₺" },
+      { name: "Börek (kg)", price: "350₺" },
+      { name: "Yaş Pasta", price: "450₺" },
+      { name: "Höşmerim", price: "100₺" },
+      { name: "Trileçe (kg)", price: "350₺" },
+      { name: "Gözleme", price: "60₺" },
+      { name: "Bazlama", price: "20₺" },
       { name: "Ekler (adet)", price: "10₺" },
       { name: "Truf (adet)", price: "7.5₺" },
-      { name: "Aşure", price: "60₺" }
+      { name: "Aşure", price: "75₺" }
     ]
   },
   {
     category: "ÇORBALAR",
     items: [
-      { name: "Gerdan Çorbası", price: "80₺" },
-      { name: "Mercimek Çorbası", price: "70₺"}
+      { name: "Gerdan Çorbası", price: "100₺" },
+      { name: "Mercimek Çorbası", price: "80₺"}
     ]
   },
   {
@@ -109,3 +108,4 @@ const MenuCategory = ({ category, items }) => (
   );
 
 export default Menu;
+

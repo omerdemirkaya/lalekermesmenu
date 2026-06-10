@@ -4,43 +4,44 @@ const menuData = [
   {
     category: "DÖNER ÜRÜNLERİ",
     items: [
-      { name: "Et Döner Ekmek Arası", price: "200₺" },
-      { name: "Et Döner Lavaş Dürüm", price: "200₺" },
-      { name: "Et Döner Servis", price: "210₺" },
-      { name: "Tavuk Döner Ekmek Arası", price: "170₺" },
-      { name: "Tavuk Döner Lavaş Dürüm", price: "170₺" },
-      { name: "Tavuk Döner Servis", price: "180₺" },
+      { name: "Et Döner Ekmek Arası", price: "250₺" },
+      { name: "Et Döner Lavaş Dürüm", price: "250₺" },
+      { name: "Et Döner Servis", price: "250₺" },
+      { name: "Tavuk Döner Ekmek Arası", price: "200₺" },
+      { name: "Tavuk Döner Lavaş Dürüm", price: "200₺" },
+      { name: "Tavuk Döner Servis", price: "200₺" },
       { name: "Hatay Usulü Tavuk Dürüm", price: "180₺" },
-      { name: "Et İskender", price: "250₺" },
-      { name: "Tavuk İskender", price: "210₺" },
-      { name: "Et Döner (kg)", price: "1800₺" },
-      { name: "Tavuk Döner (kg)", price: "1500₺" }
+      { name: "Et İskender", price: "300₺" },
+      { name: "Tavuk İskender", price: "250₺" },
+      { name: "Et Döner (kg)", price: "2400₺" },
+      { name: "Tavuk Döner (kg)", price: "1900₺" }
     ]
   },  
   {
     category: "PİDE VE IZGARA ÇEŞİTLERİ",
     items: [
-      { name: "Adana Lavaş Dürüm", price: "210₺" },
-      { name: "Adana (Porsiyon)", price: "220₺" },
-      { name: "Tavuk Kanat", price: "180₺" },
-      { name: "Lahmacun", price: "100₺" },
+      { name: "Adana Lavaş Dürüm", price: "250₺" },
+      { name: "Adana (Porsiyon)", price: "250₺" },
+      { name: "Tavuk Kanat", price: "210₺" },
+      { name: "Lahmacun", price: "120₺" },
       { name: "Kıymalı Pide", price: "200₺" },
-      { name: "Kapalı Et Dönerli Pide", price: "250₺" },
-      { name: "Köfte (Ekmek Arası)", price: "180₺" },
-      { name: "Köfte Servis", price: "190₺" },
-      { name: "Kuzu Şiş", price: "210₺"},
-      { name: "Kuzu Şiş Servis", price: "220₺"},
-      { name: "Kuzu Ciğer Şiş", price: "170₺"},
-      { name: "Kuzu Ciğer Şiş Servis", price: "180₺"},
-      { name: "Pirzola (5 Adet)", price: "300₺" }
+      { name: "Kuşbaşılı Pide", price: "275₺" },
+      { name: "Kapalı Et Dönerli Pide", price: "275₺" },
+      { name: "Köfte (Ekmek Arası)", price: "200₺" },
+      { name: "Köfte Servis", price: "200₺" },
+      { name: "Kuzu Şiş Dürüm", price: "280₺" },
+      { name: "Kuzu Şiş Servis", price: "280₺" },
+      { name: "Ciğer Şiş Dürüm", price: "225₺" },
+      { name: "Ciğer Şiş Servis", price: "225₺" },
+      { name: "Pirzola (5 Adet)", price: "350₺" }
     ]
   },
   {
     category: "ÖZEL LEZZETLER",
     items: [
-      { name: "Çiğ Köfte (kg)", price: "250₺" },
-      { name: "Çiğ Köfte (Porsiyon)", price: "75₺" },
-      { name: "Çiğ Köfte (Dürüm)", price: "60₺" },
+      { name: "Çiğ Köfte (kg)", price: "300₺" },
+      { name: "Çiğ Köfte (Porsiyon)", price: "100₺" },
+      { name: "Çiğ Köfte (Dürüm)", price: "80₺" },
       { name: "Mantı (kg)", price: "450₺" },
       { name: "Mantı (Porsiyon)", price: "75₺" },
       { name: "İçli Köfte (adet)", price: "70₺" },
@@ -64,20 +65,21 @@ const menuData = [
     category: "ÇORBALAR",
     items: [
       { name: "Gerdan Çorbası", price: "100₺" },
-      { name: "Mercimek Çorbası", price: "80₺"}
+      { name: "Kelle Paça Çorbası", price: "100₺" },
+      { name: "Mercimek Çorbası", price: "100₺" }
     ]
   },
   {
     category: "İÇECEKLER",
     items: [
-      { name: "Su", price: "5₺" },
+      { name: "Bardak Su", price: "5₺" },
       { name: "Sade Soda", price: "15₺" },
-      { name: "Kapalı Ayran", price: "10₺" },
-      { name: "Yayık Ayran", price: "20₺" },
+      { name: "Kapalı Ayran", price: "15₺" },
+      { name: "Yayık Ayran", price: "25₺" },
       { name: "Gazoz", price: "20₺" },
       { name: "Kızılcık Şerbeti", price: "20₺" },
       { name: "Limonata", price: "20₺" },
-      { name: "Çay", price: "5₺" }
+      { name: "Bardak Çay", price: "İkram" }
     ]
   }
 ];
@@ -108,4 +110,3 @@ const MenuCategory = ({ category, items }) => (
   );
 
 export default Menu;
-
